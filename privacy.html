@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mailbox Privacy Policy</title>
+<meta name="description" content="How Mailbox handles your Google account data.">
+<style>
+  :root { --bg: #fff; --fg: #1b1d22; --muted: #5f6672; --line: #e3e5ea; --accent: #2563eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #16171b; --fg: #e7e8ea; --muted: #9096a1; --line: #2c2f36; --accent: #5b8cff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px 80px; }
+  h1 { font-size: 32px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  .muted { color: var(--muted); }
+  ul { padding-left: 20px; } li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mailbox Privacy Policy</h1>
+  <p class="muted">Last updated: October 30, 2026</p>
+
+  <p>Mailbox is an email client that you run on your own computer. This policy explains what data Mailbox accesses, how it is used and stored, and who it is shared with. In short: your mail stays on your computer, and the developer never receives it.</p>
+
+  <h2>Data Mailbox accesses</h2>
+  <p>When you connect a Google account with <b>Sign in with Google</b>, Mailbox requests these permissions:</p>
+  <ul>
+    <li><b>Gmail (<code>https://mail.google.com/</code>)</b>: to download your messages, labels and attachments; to mark messages read or unread, star, archive, label and delete them; and to send mail you write.</li>
+    <li><b>Basic profile (<code>openid</code>, <code>email</code>, <code>profile</code>)</b>: to show which account is connected, using your email address and name.</li>
+  </ul>
+  <p>If you connect an account with a Google app password instead, Mailbox accesses the same Gmail data using that password.</p>
+
+  <h2>How the data is used</h2>
+  <p>Mailbox uses your Google data only to provide its email features to you: showing, searching, organizing and sending your mail, and keeping it in sync with Gmail. It does not use your data for advertising. It does not sell your data. It does not use your data to train AI or machine-learning models.</p>
+
+  <h2>Where the data is stored</h2>
+  <ul>
+    <li>Your mail, search index and settings are stored in a database on the computer where you run Mailbox.</li>
+    <li>Google sign-in tokens (or app passwords) are stored in that same local database, so Mailbox can stay connected without asking you to sign in again.</li>
+    <li>If you open Mailbox on your phone, the phone keeps a cache of recent messages in its browser storage so you can read and search them offline.</li>
+  </ul>
+  <p>The developer does not operate any server that receives your mail, tokens or account information.</p>
+
+  <h2>Sharing</h2>
+  <p>Mailbox shares your data only in these cases, all of which you control:</p>
+  <ul>
+    <li><b>Google</b>: Mailbox communicates with Gmail's servers to sync and send your mail.</li>
+    <li><b>AI assistants you connect</b>: if you choose to connect an AI assistant (such as Claude) to Mailbox through the Model Context Protocol, that assistant can search, read, organize and send mail when you ask it to. What it receives is then governed by that assistant provider's own privacy policy. This feature is off until you set it up.</li>
+    <li><b>Your own devices</b>: when you open Mailbox from your phone or another device you control.</li>
+  </ul>
+  <p>No data is shared with the developer or any other third party.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>Mailbox's use and transfer of information received from Google APIs to any other app will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Retention and deletion</h2>
+  <ul>
+    <li>Removing an account in Mailbox (Manage accounts → Remove) deletes that account's mail and tokens from your computer.</li>
+    <li>Deleting Mailbox's data folder deletes all stored mail, tokens and settings.</li>
+    <li>You can revoke Mailbox's access to your Google account at any time at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</li>
+  </ul>
+
+  <h2>Security</h2>
+  <p>Mailbox listens only on your own computer by default and is protected by a passcode. Remote access from other devices is meant to go through a private network you control, such as Tailscale. Email content is displayed in a sandbox with scripts disabled, and remote images are blocked until you allow them.</p>
+
+  <h2>Children</h2>
+  <p>Mailbox is not directed at children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:alon@dcoded.dev">alon@dcoded.dev</a></p>
+
+  <footer><a href="./">Mailbox</a> by DCODED</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mailbox</title>
+<meta name="description" content="Mailbox is a self-hosted, offline-first email client for Gmail that keeps your mail on your own computer.">
+<style>
+  :root { --bg: #fff; --fg: #1b1d22; --muted: #5f6672; --line: #e3e5ea; --accent: #2563eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #16171b; --fg: #e7e8ea; --muted: #9096a1; --line: #2c2f36; --accent: #5b8cff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px 80px; }
+  h1 { font-size: 36px; margin: 0 0 8px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; }
+  .lede { font-size: 19px; color: var(--muted); margin: 0 0 24px; }
+  ul { padding-left: 20px; } li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mailbox</h1>
+  <p class="lede">A fast, private email client for your Gmail accounts. It runs on your own computer, keeps your mail there, and works offline.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Brings all your Gmail accounts into one unified, threaded inbox.</li>
+    <li>Keeps a full copy of your mail on your computer, so search is instant and works without an internet connection.</li>
+    <li>Supports Gmail-style search operators such as <code>from:</code>, <code>has:attachment</code> and <code>newer_than:7d</code>.</li>
+    <li>Lets you read, archive, star, label, delete and send mail, with changes synced back to Gmail.</li>
+    <li>Works on your phone through your own private network, as an installable web app.</li>
+    <li>Optionally lets an AI assistant you choose, such as Claude, search and manage your mail through the Model Context Protocol (MCP).</li>
+  </ul>
+
+  <h2>How it uses your Google account</h2>
+  <p>When you choose <b>Sign in with Google</b>, Mailbox asks for permission to access your Gmail. It uses that access only to download, display, search, organize and send your mail inside the app, at your request. Your mail and sign-in tokens are stored on your own computer. They are not sent to the developer or to any server run by the developer.</p>
+  <p>Read the <a href="privacy.html">privacy policy</a> for details.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or support: <a href="mailto:alon@dcoded.dev">alon@dcoded.dev</a></p>
+
+  <footer>Mailbox by DCODED · <a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
